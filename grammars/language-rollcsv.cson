@@ -1,0 +1,43 @@
+scopeName: 'source.rollcsv'
+name: 'RollCSV'
+fileTypes: [
+  'csv'
+]
+patterns: [
+  {
+    match: '(UNIT|MILLIMETRE|PROFILE|FRAMESET|COMPONENT|LABEL\\_NRM|LABEL\\_INV)'
+    name: 'constant.rollcsv'
+  }
+  {
+    match: '(SWAGE)'
+    name: 'keyword.rollcsv'
+  }
+  {
+    match: '(NOTCH)'
+    name: 'variable.rollcsv'
+  }
+  {
+    match: '(DIMPLE|FLANGE1)'
+    name: 'support.function.rollcsv'
+  }
+  {
+    match: '(LIP\\_CUT)'
+    name: 'support.class.rollcsv'
+  }
+  {
+    match: '(BOLT|WEB|SERVICE\\_HOLE)'
+    name: 'string.rollcsv'
+  }
+  {
+    match: '(SIDE\\_TRUSS\\_L|SIDE\\_TRUSS\\_R)'
+    name: 'variable.interpolation.rollcsv'
+  }
+  {
+    match: '(END\\_TRUSS)'
+    name: 'meta.require.rollcsv'
+  }
+  {
+    match: '\\,'
+    name: 'punctuation.rollcsv'
+  }
+]

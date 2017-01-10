@@ -1,0 +1,14 @@
+{
+  "name": "language-rollcsv",
+  "version": "0.1.0",
+  "description": "A proprietary CSV syntax for roll forming machines",
+  "keywords": [
+  ],
+  "repository": "https://github.com/DamnedScholar/language-rollcsv",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
